@@ -46,7 +46,8 @@ oc create secret generic amqbroker-tls-secret --from-file=broker.ks=broker.ks --
 
 2. Run the `org.monguzzi.examples.BasicClient` providing as input parameter the broker URL with the following structure:
 
-<protocol>://<route>:<port>?<connectionProperties>
+`<protocol>://<route>:<port>?<connectionProperties>`
+
 Example:
 
 ```
